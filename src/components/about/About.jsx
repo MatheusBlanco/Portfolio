@@ -3,7 +3,8 @@ import React from "react";
 const About = () => {
   return (
     <section id="about">
-      <h5></h5>
+      <h5>Get to know</h5>
+      <h2>About</h2>
     </section>
   );
 };
