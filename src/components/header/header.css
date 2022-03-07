@@ -1,6 +1,6 @@
 header {
   height: 100vh;
-  padding-top: 7rem;
+  padding-top: 5rem;
   overflow: hidden;
 }
 
@@ -52,6 +52,12 @@ header {
   bottom: 5rem;
   transform: rotate(90deg);
   font-size: 0.9rem;
+}
+
+@media screen and (max-width: 1024px) {
+  header {
+    height: 85vh;
+  }
 }
 
 @media screen and (max-width: 600px) {
